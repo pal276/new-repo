@@ -1,7 +1,7 @@
-\"use strict\";
-var app=angular.module(\"urlConfig\");
+"use strict";
+var app=angular.module("urlConfig");
   var Url = {
-      /'projectAnalysis_url\':\'http://34.69.84.192:8007\'
+      'projectAnalysis_url':'http://34.69.84.192:8007'
       }
   return Url;
   }
