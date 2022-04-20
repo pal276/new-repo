@@ -3,18 +3,18 @@ var app = angular.module("urlConfig", ["ngRoute", "ngGrid"]);
 app.service('CONFIG', function($location) {
        console.log("config.js :: app.service :: Refering urls")
        var Url = {
-              'projectAnalysis_url': 'http://34.67.59.28:8007',
+              'projectAnalysis_url': 'http://35.192.92.114:8007',
               'dashboard_url': '',
-              'codeReview_url': 'http://34.67.59.28:8001',
-              'Deployment_url': 'http://34.67.59.28:8010',
-              'onboarding_url': 'http://34.67.59.28:8008',
-              'estimation_url': 'http://34.67.59.28:8003',
-              'apiSpecs_url': 'http://34.67.59.28:8004',
-              'integrationcenter_url': 'http://34.67.59.28:8080',
-              'specAnalyzer_url': 'http://34.67.59.28:8006',
-              'inception_url': 'http://34.67.59.28:8989',
+              'codeReview_url': 'http://35.192.92.114:8001',
+              'Deployment_url': 'http://35.192.92.114:8010',
+              'onboarding_url': 'http://35.192.92.114:8008',
+              'estimation_url': 'http://35.192.92.114:8003',
+              'apiSpecs_url': 'http://35.192.92.114:8004',
+              'integrationcenter_url': 'http://35.192.92.114:8080',
+              'specAnalyzer_url': 'http://35.192.92.114:8006',
+              'inception_url': 'http://35.192.92.114:8989',
               'logout_url': '',
-              'migrationcenter_url': 'http://34.67.59.28:8877'
+              'migrationcenter_url': 'http://35.192.92.114:8877'
          };
          return Url;
 });
